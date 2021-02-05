@@ -20,7 +20,7 @@ app.all('/process/*', (req, res) => {
         await Data.create({ date, method, headers, path, query, body, duration });
         
         res.status(200).json({ date, method, headers, path, query, body, duration: `${duration} seconds` });
-    }, 5000 + Math.random() * (30 - 5) * 1000);
+    }, 15000 + Math.random() * (30 - 5) * 1000);
 });
 
 

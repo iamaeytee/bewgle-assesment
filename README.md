@@ -1,4 +1,4 @@
-# bewgle-assesment
+# bewgle-assessment
 Code for bewgle assesment
 
 #Description of assesment

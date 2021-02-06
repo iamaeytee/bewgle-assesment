@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const DataSchema = mongoose.Schema({
-    date: Date,
+    date: Object,
     method: String,
     headers: Object,
     path: String,
